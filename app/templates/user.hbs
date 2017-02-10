@@ -1,0 +1,11 @@
+<div class="user">
+  <strong>User name:</strong> {{user.name}}
+</div>
+
+<div class="countries">
+  <ul>
+    {{#each user.availableCountries as |country|}}
+      <li>{{country.name}}</li>
+    {{/each}}
+  </ul>
+</div>
