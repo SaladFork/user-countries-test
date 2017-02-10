@@ -438,7 +438,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("user-countries-test/app")["default"].create({"name":"user-countries-test","version":"0.0.0+347a74d3"});
+  require("user-countries-test/app")["default"].create({"name":"user-countries-test","version":"0.0.0+a926c49c"});
 }
 
 /* jshint ignore:end */
