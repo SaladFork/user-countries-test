@@ -1,5 +1,14 @@
 export default function() {
 
+this.get('/users/:id', () => {
+  return {
+    user: {
+      id: 1,
+      name: 'Example User'
+    }
+  }
+});
+
   // These comments are here to help you get started. Feel free to delete them.
 
   /*
