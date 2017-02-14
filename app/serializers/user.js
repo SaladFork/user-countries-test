@@ -15,7 +15,7 @@ export default RESTSerializer.extend({
 
     // FIXME: Can we use the Countries serializer to get this instead of hard
     // coding the path?
-    links.countries = '/countries';
+    links.availableCountries = '/countries';
     resourceHash.links = links;
 
     return this._super(modelClass, resourceHash);
