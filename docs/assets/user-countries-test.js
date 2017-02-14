@@ -360,7 +360,7 @@ define('user-countries-test/serializers/user', ['exports', 'ember', 'ember-data'
 
       // FIXME: Can we use the Countries serializer to get this instead of hard
       // coding the path?
-      links.countries = '/countries';
+      links.availableCountries = '/countries';
       resourceHash.links = links;
 
       return this._super(modelClass, resourceHash);
@@ -438,7 +438,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("user-countries-test/app")["default"].create({"name":"user-countries-test","version":"0.0.0+a926c49c"});
+  require("user-countries-test/app")["default"].create({"name":"user-countries-test","version":"0.0.0+7c623ea7"});
 }
 
 /* jshint ignore:end */
